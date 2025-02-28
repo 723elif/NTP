@@ -1,0 +1,321 @@
+﻿namespace uygulama_2
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.rbCpul7 = new System.Windows.Forms.RadioButton();
+            this.rbCpul5 = new System.Windows.Forms.RadioButton();
+            this.rbCpul3 = new System.Windows.Forms.RadioButton();
+            this.rbCpuR5 = new System.Windows.Forms.RadioButton();
+            this.rbCpuR3 = new System.Windows.Forms.RadioButton();
+            this.rbRam16 = new System.Windows.Forms.RadioButton();
+            this.rbRam8 = new System.Windows.Forms.RadioButton();
+            this.rbRam4 = new System.Windows.Forms.RadioButton();
+            this.rbHdd1000 = new System.Windows.Forms.RadioButton();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.radioButton11 = new System.Windows.Forms.RadioButton();
+            this.btnHesapla = new System.Windows.Forms.Button();
+            this.cbDvd = new System.Windows.Forms.CheckBox();
+            this.cbWebCam = new System.Windows.Forms.CheckBox();
+            this.cbWifi = new System.Windows.Forms.CheckBox();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.rbCpuR3);
+            this.groupBox1.Controls.Add(this.rbCpuR5);
+            this.groupBox1.Controls.Add(this.rbCpul3);
+            this.groupBox1.Controls.Add(this.rbCpul5);
+            this.groupBox1.Controls.Add(this.rbCpul7);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox1.Location = new System.Drawing.Point(21, 22);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(158, 171);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "İşlemler";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.rbRam4);
+            this.groupBox2.Controls.Add(this.rbRam8);
+            this.groupBox2.Controls.Add(this.rbRam16);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox2.Location = new System.Drawing.Point(295, 22);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(200, 141);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Ram Bellek";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.radioButton11);
+            this.groupBox3.Controls.Add(this.radioButton10);
+            this.groupBox3.Controls.Add(this.rbHdd1000);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox3.Location = new System.Drawing.Point(529, 22);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(200, 141);
+            this.groupBox3.TabIndex = 2;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Sabit Dsik";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.cbWifi);
+            this.groupBox4.Controls.Add(this.cbWebCam);
+            this.groupBox4.Controls.Add(this.cbDvd);
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox4.Location = new System.Drawing.Point(21, 273);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(226, 146);
+            this.groupBox4.TabIndex = 3;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Ek Donanımlar";
+            // 
+            // rbCpul7
+            // 
+            this.rbCpul7.AutoSize = true;
+            this.rbCpul7.Location = new System.Drawing.Point(17, 32);
+            this.rbCpul7.Name = "rbCpul7";
+            this.rbCpul7.Size = new System.Drawing.Size(90, 19);
+            this.rbCpul7.TabIndex = 0;
+            this.rbCpul7.TabStop = true;
+            this.rbCpul7.Text = "İntel Core i7";
+            this.rbCpul7.UseVisualStyleBackColor = true;
+            // 
+            // rbCpul5
+            // 
+            this.rbCpul5.AutoSize = true;
+            this.rbCpul5.Location = new System.Drawing.Point(17, 55);
+            this.rbCpul5.Name = "rbCpul5";
+            this.rbCpul5.Size = new System.Drawing.Size(90, 19);
+            this.rbCpul5.TabIndex = 1;
+            this.rbCpul5.TabStop = true;
+            this.rbCpul5.Text = "İntel Core i5";
+            this.rbCpul5.UseVisualStyleBackColor = true;
+            // 
+            // rbCpul3
+            // 
+            this.rbCpul3.AutoSize = true;
+            this.rbCpul3.Location = new System.Drawing.Point(17, 78);
+            this.rbCpul3.Name = "rbCpul3";
+            this.rbCpul3.Size = new System.Drawing.Size(90, 19);
+            this.rbCpul3.TabIndex = 2;
+            this.rbCpul3.TabStop = true;
+            this.rbCpul3.Text = "İntel Core i3";
+            this.rbCpul3.UseVisualStyleBackColor = true;
+            // 
+            // rbCpuR5
+            // 
+            this.rbCpuR5.AutoSize = true;
+            this.rbCpuR5.Location = new System.Drawing.Point(17, 101);
+            this.rbCpuR5.Name = "rbCpuR5";
+            this.rbCpuR5.Size = new System.Drawing.Size(99, 19);
+            this.rbCpuR5.TabIndex = 3;
+            this.rbCpuR5.TabStop = true;
+            this.rbCpuR5.Text = "AMD Ryzen 5";
+            this.rbCpuR5.UseVisualStyleBackColor = true;
+            // 
+            // rbCpuR3
+            // 
+            this.rbCpuR3.AutoSize = true;
+            this.rbCpuR3.Location = new System.Drawing.Point(17, 124);
+            this.rbCpuR3.Name = "rbCpuR3";
+            this.rbCpuR3.Size = new System.Drawing.Size(99, 19);
+            this.rbCpuR3.TabIndex = 4;
+            this.rbCpuR3.TabStop = true;
+            this.rbCpuR3.Text = "AMD Ryzen 3";
+            this.rbCpuR3.UseVisualStyleBackColor = true;
+            // 
+            // rbRam16
+            // 
+            this.rbRam16.AutoSize = true;
+            this.rbRam16.Location = new System.Drawing.Point(15, 32);
+            this.rbRam16.Name = "rbRam16";
+            this.rbRam16.Size = new System.Drawing.Size(59, 19);
+            this.rbRam16.TabIndex = 0;
+            this.rbRam16.TabStop = true;
+            this.rbRam16.Text = "16 GB";
+            this.rbRam16.UseVisualStyleBackColor = true;
+            // 
+            // rbRam8
+            // 
+            this.rbRam8.AutoSize = true;
+            this.rbRam8.Location = new System.Drawing.Point(15, 57);
+            this.rbRam8.Name = "rbRam8";
+            this.rbRam8.Size = new System.Drawing.Size(52, 19);
+            this.rbRam8.TabIndex = 1;
+            this.rbRam8.TabStop = true;
+            this.rbRam8.Text = "8 GB";
+            this.rbRam8.UseVisualStyleBackColor = true;
+            // 
+            // rbRam4
+            // 
+            this.rbRam4.AutoSize = true;
+            this.rbRam4.Location = new System.Drawing.Point(15, 82);
+            this.rbRam4.Name = "rbRam4";
+            this.rbRam4.Size = new System.Drawing.Size(52, 19);
+            this.rbRam4.TabIndex = 2;
+            this.rbRam4.TabStop = true;
+            this.rbRam4.Text = "4 GB";
+            this.rbRam4.UseVisualStyleBackColor = true;
+            // 
+            // rbHdd1000
+            // 
+            this.rbHdd1000.AutoSize = true;
+            this.rbHdd1000.Location = new System.Drawing.Point(16, 30);
+            this.rbHdd1000.Name = "rbHdd1000";
+            this.rbHdd1000.Size = new System.Drawing.Size(50, 19);
+            this.rbHdd1000.TabIndex = 0;
+            this.rbHdd1000.TabStop = true;
+            this.rbHdd1000.Text = "1 TB";
+            this.rbHdd1000.UseVisualStyleBackColor = true;
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.Location = new System.Drawing.Point(16, 56);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(66, 19);
+            this.radioButton10.TabIndex = 1;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.Text = "500 GB";
+            this.radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // radioButton11
+            // 
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.Location = new System.Drawing.Point(16, 82);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(66, 19);
+            this.radioButton11.TabIndex = 2;
+            this.radioButton11.TabStop = true;
+            this.radioButton11.Text = "320 GB";
+            this.radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // btnHesapla
+            // 
+            this.btnHesapla.BackColor = System.Drawing.Color.White;
+            this.btnHesapla.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnHesapla.Location = new System.Drawing.Point(310, 184);
+            this.btnHesapla.Name = "btnHesapla";
+            this.btnHesapla.Size = new System.Drawing.Size(151, 44);
+            this.btnHesapla.TabIndex = 4;
+            this.btnHesapla.Text = "Hesapla";
+            this.btnHesapla.UseVisualStyleBackColor = false;
+            this.btnHesapla.Click += new System.EventHandler(this.btnHesapla_Click);
+            // 
+            // cbDvd
+            // 
+            this.cbDvd.AutoSize = true;
+            this.cbDvd.Location = new System.Drawing.Point(7, 34);
+            this.cbDvd.Name = "cbDvd";
+            this.cbDvd.Size = new System.Drawing.Size(74, 19);
+            this.cbDvd.TabIndex = 0;
+            this.cbDvd.Text = "DVD RW";
+            this.cbDvd.UseVisualStyleBackColor = true;
+            // 
+            // cbWebCam
+            // 
+            this.cbWebCam.AutoSize = true;
+            this.cbWebCam.Location = new System.Drawing.Point(7, 60);
+            this.cbWebCam.Name = "cbWebCam";
+            this.cbWebCam.Size = new System.Drawing.Size(80, 19);
+            this.cbWebCam.TabIndex = 1;
+            this.cbWebCam.Text = "Web Cam";
+            this.cbWebCam.UseVisualStyleBackColor = true;
+            // 
+            // cbWifi
+            // 
+            this.cbWifi.AutoSize = true;
+            this.cbWifi.Location = new System.Drawing.Point(7, 86);
+            this.cbWifi.Name = "cbWifi";
+            this.cbWifi.Size = new System.Drawing.Size(98, 19);
+            this.cbWifi.TabIndex = 2;
+            this.cbWifi.Text = "Wireless Kart";
+            this.cbWifi.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Thistle;
+            this.ClientSize = new System.Drawing.Size(951, 529);
+            this.Controls.Add(this.btnHesapla);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.RadioButton rbCpuR3;
+        private System.Windows.Forms.RadioButton rbCpuR5;
+        private System.Windows.Forms.RadioButton rbCpul3;
+        private System.Windows.Forms.RadioButton rbCpul5;
+        private System.Windows.Forms.RadioButton rbCpul7;
+        private System.Windows.Forms.RadioButton rbRam4;
+        private System.Windows.Forms.RadioButton rbRam8;
+        private System.Windows.Forms.RadioButton rbRam16;
+        private System.Windows.Forms.RadioButton radioButton11;
+        private System.Windows.Forms.RadioButton radioButton10;
+        private System.Windows.Forms.RadioButton rbHdd1000;
+        private System.Windows.Forms.Button btnHesapla;
+        private System.Windows.Forms.CheckBox cbWifi;
+        private System.Windows.Forms.CheckBox cbWebCam;
+        private System.Windows.Forms.CheckBox cbDvd;
+    }
+}
+
