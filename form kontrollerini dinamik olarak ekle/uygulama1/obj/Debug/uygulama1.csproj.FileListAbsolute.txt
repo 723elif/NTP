@@ -1,0 +1,11 @@
+C:\Users\H2O\Desktop\KORUMASIZ\723elif\02.27.2025\uygulama1\uygulama1\bin\Debug\uygulama1.exe.config
+C:\Users\H2O\Desktop\KORUMASIZ\723elif\02.27.2025\uygulama1\uygulama1\bin\Debug\uygulama1.exe
+C:\Users\H2O\Desktop\KORUMASIZ\723elif\02.27.2025\uygulama1\uygulama1\bin\Debug\uygulama1.pdb
+C:\Users\H2O\Desktop\KORUMASIZ\723elif\02.27.2025\uygulama1\uygulama1\obj\Debug\uygulama1.csproj.AssemblyReference.cache
+C:\Users\H2O\Desktop\KORUMASIZ\723elif\02.27.2025\uygulama1\uygulama1\obj\Debug\uygulama1.FormA.resources
+C:\Users\H2O\Desktop\KORUMASIZ\723elif\02.27.2025\uygulama1\uygulama1\obj\Debug\uygulama1.FormB.resources
+C:\Users\H2O\Desktop\KORUMASIZ\723elif\02.27.2025\uygulama1\uygulama1\obj\Debug\uygulama1.Properties.Resources.resources
+C:\Users\H2O\Desktop\KORUMASIZ\723elif\02.27.2025\uygulama1\uygulama1\obj\Debug\uygulama1.csproj.GenerateResource.cache
+C:\Users\H2O\Desktop\KORUMASIZ\723elif\02.27.2025\uygulama1\uygulama1\obj\Debug\uygulama1.csproj.CoreCompileInputs.cache
+C:\Users\H2O\Desktop\KORUMASIZ\723elif\02.27.2025\uygulama1\uygulama1\obj\Debug\uygulama1.exe
+C:\Users\H2O\Desktop\KORUMASIZ\723elif\02.27.2025\uygulama1\uygulama1\obj\Debug\uygulama1.pdb
